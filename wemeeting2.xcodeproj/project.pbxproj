@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4835196E1F6829A2005641C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4835196D1F6829A2005641C5 /* AppDelegate.swift */; };
+		483519701F6829A2005641C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4835196F1F6829A2005641C5 /* ViewController.swift */; };
+		483519731F6829A2005641C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483519711F6829A2005641C5 /* Main.storyboard */; };
+		483519751F6829A2005641C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483519741F6829A2005641C5 /* Assets.xcassets */; };
+		483519781F6829A2005641C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483519761F6829A2005641C5 /* LaunchScreen.storyboard */; };
+		483519831F6829A2005641C5 /* wemeeting2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483519821F6829A2005641C5 /* wemeeting2Tests.swift */; };
+		4835198E1F6829A2005641C5 /* wemeeting2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4835198D1F6829A2005641C5 /* wemeeting2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4835197F1F6829A2005641C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 483519621F6829A2005641C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 483519691F6829A2005641C5;
+			remoteInfo = wemeeting2;
+		};
+		4835198A1F6829A2005641C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 483519621F6829A2005641C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 483519691F6829A2005641C5;
+			remoteInfo = wemeeting2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4835196A1F6829A2005641C5 /* wemeeting2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wemeeting2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4835196D1F6829A2005641C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4835196F1F6829A2005641C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		483519721F6829A2005641C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		483519741F6829A2005641C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		483519771F6829A2005641C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		483519791F6829A2005641C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4835197E1F6829A2005641C5 /* wemeeting2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wemeeting2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		483519821F6829A2005641C5 /* wemeeting2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wemeeting2Tests.swift; sourceTree = "<group>"; };
+		483519841F6829A2005641C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		483519891F6829A2005641C5 /* wemeeting2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wemeeting2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4835198D1F6829A2005641C5 /* wemeeting2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wemeeting2UITests.swift; sourceTree = "<group>"; };
+		4835198F1F6829A2005641C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		483519671F6829A2005641C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4835197B1F6829A2005641C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483519861F6829A2005641C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		483519611F6829A2005641C5 = {
+			isa = PBXGroup;
+			children = (
+				4835196C1F6829A2005641C5 /* wemeeting2 */,
+				483519811F6829A2005641C5 /* wemeeting2Tests */,
+				4835198C1F6829A2005641C5 /* wemeeting2UITests */,
+				4835196B1F6829A2005641C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4835196B1F6829A2005641C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4835196A1F6829A2005641C5 /* wemeeting2.app */,
+				4835197E1F6829A2005641C5 /* wemeeting2Tests.xctest */,
+				483519891F6829A2005641C5 /* wemeeting2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4835196C1F6829A2005641C5 /* wemeeting2 */ = {
+			isa = PBXGroup;
+			children = (
+				4835196D1F6829A2005641C5 /* AppDelegate.swift */,
+				4835196F1F6829A2005641C5 /* ViewController.swift */,
+				483519711F6829A2005641C5 /* Main.storyboard */,
+				483519741F6829A2005641C5 /* Assets.xcassets */,
+				483519761F6829A2005641C5 /* LaunchScreen.storyboard */,
+				483519791F6829A2005641C5 /* Info.plist */,
+			);
+			path = wemeeting2;
+			sourceTree = "<group>";
+		};
+		483519811F6829A2005641C5 /* wemeeting2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				483519821F6829A2005641C5 /* wemeeting2Tests.swift */,
+				483519841F6829A2005641C5 /* Info.plist */,
+			);
+			path = wemeeting2Tests;
+			sourceTree = "<group>";
+		};
+		4835198C1F6829A2005641C5 /* wemeeting2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4835198D1F6829A2005641C5 /* wemeeting2UITests.swift */,
+				4835198F1F6829A2005641C5 /* Info.plist */,
+			);
+			path = wemeeting2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		483519691F6829A2005641C5 /* wemeeting2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483519921F6829A2005641C5 /* Build configuration list for PBXNativeTarget "wemeeting2" */;
+			buildPhases = (
+				483519661F6829A2005641C5 /* Sources */,
+				483519671F6829A2005641C5 /* Frameworks */,
+				483519681F6829A2005641C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wemeeting2;
+			productName = wemeeting2;
+			productReference = 4835196A1F6829A2005641C5 /* wemeeting2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4835197D1F6829A2005641C5 /* wemeeting2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483519951F6829A2005641C5 /* Build configuration list for PBXNativeTarget "wemeeting2Tests" */;
+			buildPhases = (
+				4835197A1F6829A2005641C5 /* Sources */,
+				4835197B1F6829A2005641C5 /* Frameworks */,
+				4835197C1F6829A2005641C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				483519801F6829A2005641C5 /* PBXTargetDependency */,
+			);
+			name = wemeeting2Tests;
+			productName = wemeeting2Tests;
+			productReference = 4835197E1F6829A2005641C5 /* wemeeting2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		483519881F6829A2005641C5 /* wemeeting2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483519981F6829A2005641C5 /* Build configuration list for PBXNativeTarget "wemeeting2UITests" */;
+			buildPhases = (
+				483519851F6829A2005641C5 /* Sources */,
+				483519861F6829A2005641C5 /* Frameworks */,
+				483519871F6829A2005641C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4835198B1F6829A2005641C5 /* PBXTargetDependency */,
+			);
+			name = wemeeting2UITests;
+			productName = wemeeting2UITests;
+			productReference = 483519891F6829A2005641C5 /* wemeeting2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		483519621F6829A2005641C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Lai kwok tai";
+				TargetAttributes = {
+					483519691F6829A2005641C5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G93R8W2Y58;
+						ProvisioningStyle = Automatic;
+					};
+					4835197D1F6829A2005641C5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G93R8W2Y58;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 483519691F6829A2005641C5;
+					};
+					483519881F6829A2005641C5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G93R8W2Y58;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 483519691F6829A2005641C5;
+					};
+				};
+			};
+			buildConfigurationList = 483519651F6829A2005641C5 /* Build configuration list for PBXProject "wemeeting2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 483519611F6829A2005641C5;
+			productRefGroup = 4835196B1F6829A2005641C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				483519691F6829A2005641C5 /* wemeeting2 */,
+				4835197D1F6829A2005641C5 /* wemeeting2Tests */,
+				483519881F6829A2005641C5 /* wemeeting2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		483519681F6829A2005641C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483519781F6829A2005641C5 /* LaunchScreen.storyboard in Resources */,
+				483519751F6829A2005641C5 /* Assets.xcassets in Resources */,
+				483519731F6829A2005641C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4835197C1F6829A2005641C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483519871F6829A2005641C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		483519661F6829A2005641C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483519701F6829A2005641C5 /* ViewController.swift in Sources */,
+				4835196E1F6829A2005641C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4835197A1F6829A2005641C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483519831F6829A2005641C5 /* wemeeting2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483519851F6829A2005641C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4835198E1F6829A2005641C5 /* wemeeting2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		483519801F6829A2005641C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 483519691F6829A2005641C5 /* wemeeting2 */;
+			targetProxy = 4835197F1F6829A2005641C5 /* PBXContainerItemProxy */;
+		};
+		4835198B1F6829A2005641C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 483519691F6829A2005641C5 /* wemeeting2 */;
+			targetProxy = 4835198A1F6829A2005641C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		483519711F6829A2005641C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				483519721F6829A2005641C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		483519761F6829A2005641C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				483519771F6829A2005641C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		483519901F6829A2005641C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		483519911F6829A2005641C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		483519931F6829A2005641C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G93R8W2Y58;
+				INFOPLIST_FILE = wemeeting2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = videomatic.wemeeting2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		483519941F6829A2005641C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G93R8W2Y58;
+				INFOPLIST_FILE = wemeeting2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = videomatic.wemeeting2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		483519961F6829A2005641C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G93R8W2Y58;
+				INFOPLIST_FILE = wemeeting2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = videomatic.wemeeting2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wemeeting2.app/wemeeting2";
+			};
+			name = Debug;
+		};
+		483519971F6829A2005641C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G93R8W2Y58;
+				INFOPLIST_FILE = wemeeting2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = videomatic.wemeeting2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wemeeting2.app/wemeeting2";
+			};
+			name = Release;
+		};
+		483519991F6829A2005641C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G93R8W2Y58;
+				INFOPLIST_FILE = wemeeting2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = videomatic.wemeeting2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = wemeeting2;
+			};
+			name = Debug;
+		};
+		4835199A1F6829A2005641C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G93R8W2Y58;
+				INFOPLIST_FILE = wemeeting2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = videomatic.wemeeting2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = wemeeting2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		483519651F6829A2005641C5 /* Build configuration list for PBXProject "wemeeting2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483519901F6829A2005641C5 /* Debug */,
+				483519911F6829A2005641C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		483519921F6829A2005641C5 /* Build configuration list for PBXNativeTarget "wemeeting2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483519931F6829A2005641C5 /* Debug */,
+				483519941F6829A2005641C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		483519951F6829A2005641C5 /* Build configuration list for PBXNativeTarget "wemeeting2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483519961F6829A2005641C5 /* Debug */,
+				483519971F6829A2005641C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		483519981F6829A2005641C5 /* Build configuration list for PBXNativeTarget "wemeeting2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483519991F6829A2005641C5 /* Debug */,
+				4835199A1F6829A2005641C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 483519621F6829A2005641C5 /* Project object */;
+}
